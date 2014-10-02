@@ -1,0 +1,158 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+::selection {
+	background: #000000;
+	color: #FFFFFF;
+}
+
+::-moz-selection {
+	background: #000000;
+	color: #FFFFFF;
+}
+
+.frame:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.rock {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #FFFFFF;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.piece-1 {
+	width: 100%;
+}
+
+.piece-2 {
+	width: 50%;
+}
+
+.piece-3 {
+	width: 33.33%;
+}
+
+.piece-4 {
+	width: 25%;
+}
+
+.piece-5 {
+	width: 20%;
+}
+
+.piece-6 {
+	width: 16.66%
+}
+
+.piece-7 {
+	width: 14.285%;
+}
+
+.piece-8 {
+	width: 12.5%;
+}
+
+.piece-9 {
+	width: 11.11%
+}
+
+.piece-10 {
+	width: 10%;
+}
+
+.piece-11 {
+	width: 9.09%;
+}
+
+.piece-12 {
+	width: 8.33%;
+}
+
+/*-- MOBILE --*/
+@media (max-width: 30em) {
+	.piece-1,
+	.piece-2,
+	.piece-3,
+	.piece-4,
+	.piece-5,
+	.piece-6,
+	.piece-7,
+	.piece-8,
+	.piece-9,
+	.piece-10,
+	.piece-11,
+	.piece-12 {
+		width: 100%;
+	}
+}
+
+@media (min-width: 30em) and (max-width: 50em) {
+    .piece-1,
+    .piece-2,
+    .piece-3,
+    .piece-5,
+    .piece-7,
+    .piece-9,
+    .piece-11 {
+    	width: 100%;
+    }
+    .piece-4,
+    .piece-6,
+    .piece-8,
+    .piece-10,
+    .piece-12 {
+    	width: 50%;
+    }
+}
+
+@media (min-width: 50em) and (max-width: 68.75em) {
+    .piece-2,
+    .piece-7 {
+    	width: 100%;
+    }
+    .piece-4,
+    .piece-8,
+    .piece-10,
+    .piece-12 {
+    	width: 50%;
+    }
+}
+
+
+
+
+
+
+width: 33.33333%
+
+.bit-6 {
+    width: 16.66667%}
+.bit-7 {
+    width: 14.28571%}
+.bit-9 {
+    width: 11.11111%}
+.bit-11 {
+    width: 9.09091%}
+.bit-12 {
+    width: 8.33333%}
+.bit-25 {
+    width: 25%}
+.bit-40 {
+    width: 40%}
+.bit-60 {
+    width: 60%}
+.bit-75 {
+    width: 75%}
