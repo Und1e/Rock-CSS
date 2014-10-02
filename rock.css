@@ -27,10 +27,10 @@ body {
 }
 
 .rock {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background: #FFFFFF;
-    font-size: 14px;
-    padding: 10px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: #FFFFFF;
+	font-size: 14px;
+	padding: 10px;
 }
 
 .piece-1 {
@@ -100,33 +100,33 @@ body {
 }
 
 @media (min-width: 30em) and (max-width: 50em) {
-    .piece-1,
-    .piece-2,
-    .piece-3,
-    .piece-5,
-    .piece-7,
-    .piece-9,
-    .piece-11 {
-    	width: 100%;
-    }
-    .piece-4,
-    .piece-6,
-    .piece-8,
-    .piece-10,
-    .piece-12 {
-    	width: 50%;
-    }
+	.piece-1,
+	.piece-2,
+	.piece-3,
+	.piece-5,
+	.piece-7,
+	.piece-9,
+	.piece-11 {
+	    width: 100%;
+	}
+	.piece-4,
+	.piece-6,
+	.piece-8,
+	.piece-10,
+	.piece-12 {
+	    width: 50%;
+	}
 }
 
 @media (min-width: 50em) and (max-width: 68.75em) {
-    .piece-2,
-    .piece-7 {
-    	width: 100%;
-    }
-    .piece-4,
-    .piece-8,
-    .piece-10,
-    .piece-12 {
-    	width: 50%;
-    }
+	.piece-2,
+	.piece-7 {
+	    width: 100%;
+	}
+	.piece-4,
+	.piece-8,
+	.piece-10,
+	.piece-12 {
+	    width: 50%;
+	}
 }
