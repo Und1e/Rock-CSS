@@ -1,0 +1,110 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: #FFFFFF;
+	font-size: 14px;
+	margin: 0;	
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+::selection {
+	background: #000000;
+	color: #FFFFFF;
+}
+
+::-moz-selection {
+	background: #000000;
+	color: #FFFFFF;
+}
+
+.rock {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rock:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.piece-1 {
+	width: 60px;
+}
+
+.piece-2 {
+	width: 140px;
+}
+
+.piece-3 {
+	width: 220px;
+}
+
+.piece-4 {
+	width: 300px;
+}
+
+.piece-5 {
+	width: 380px;
+}
+
+.piece-6 {
+	width: 460px
+}
+
+.piece-7 {
+	width: 540px;
+}
+
+.piece-8 {
+	width: 620px;
+}
+
+.piece-9 {
+	width: 700px;
+}
+
+.piece-10 {
+	width: 780px;
+}
+
+.piece-11 {
+	width: 860px;
+}
+
+.piece-12 {
+	width: 940px;
+}
+
+.piece-1,
+.piece-2,
+.piece-3,
+.piece-4,
+.piece-5,
+.piece-6,
+.piece-7,
+.piece-8,
+.piece-9,
+.piece-10,
+.piece-11,
+.piece-12 {
+	float: left;
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.before {
+	margin-left: 0;
+}
+
+.after {
+	margin-right: 0;
+}
